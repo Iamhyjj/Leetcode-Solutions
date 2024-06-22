@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int* plusOne(int* digits, int digitsSize, int* returnSize){
-	int status=1,flag=1,i;//status表示是否进位，flag表示给定数组是否数字全为9 
+	int status=1,flag=1,i;//status琛ㄧず鏄惁杩涗綅锛宖lag琛ㄧず缁欏畾鏁扮粍鏄惁鏁板瓧鍏ㄤ负9 
 	for(i=0;i<digitsSize;i++){
 			flag=flag&&(digits[i]==9);
 	}
