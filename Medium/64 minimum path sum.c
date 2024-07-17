@@ -1,7 +1,7 @@
-
 int min(int x,int y){
     return x<y?x:y;
 }
+
 int recursion(int** grid, int gridSize, int* gridColSize,int** hash){
 	if(gridSize==1&&*gridColSize==1){
         hash[1][1]=grid[0][0];
