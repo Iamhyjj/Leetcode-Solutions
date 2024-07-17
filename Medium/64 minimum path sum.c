@@ -1,6 +1,4 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+
 int min(int x,int y){
     return x<y?x:y;
 }
