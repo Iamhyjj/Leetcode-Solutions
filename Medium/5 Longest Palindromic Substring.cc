@@ -36,9 +36,3 @@ public:
     }
 };
 
-int main(){
-    Solution test;
-    string s= test.longestPalindrome("aa");
-    cout << s.size() << ' ' <<s;
-    return 0;
-}
